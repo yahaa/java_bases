@@ -44,6 +44,7 @@ public class EmailServer {
     public static void main(String[] args) {
         EmailServer server = new EmailServer();
         server.service();
+        System.out.println(":66666");
     }
 
 
