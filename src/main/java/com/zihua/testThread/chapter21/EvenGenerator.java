@@ -7,7 +7,7 @@ public class EvenGenerator extends IntGenerator {
     private int cur = 1;
 
     @Override
-    public synchronized int next() {
+    public int next() {
         ++cur;
         ++cur;
         return cur;
